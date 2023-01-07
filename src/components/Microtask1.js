@@ -4,7 +4,7 @@ function Microtask1() {
   return (
     <div className='grid grid-cols-[20%_80%] h-[90vh]'>
       <div className='bg-blue-100 font-bold  ' style={{ overflowY: "scroll" }} >
-        <div className=' p-4'>
+        <div className='text-lg p-4'>
           Table of Contents
         </div>
         <hr className='h-[3px] bg-blue-400' />
