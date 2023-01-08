@@ -52,6 +52,8 @@ function Microtask1() {
             <hr className='h-[2px] bg-gray-300 my-3' />
             <div className='font-bold'>
             This microservice provide location address for given latitude and longitude in query
+            <p>API is live</p>
+              <a className='text-blue-900' href="https://t09a36.deta.dev" target="_blank" rel="noopener noreferrer">https://t09a36.deta.dev</a>
             </div>
           </div>
 

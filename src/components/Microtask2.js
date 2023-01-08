@@ -107,6 +107,8 @@ function Microtask2() {
               <p>
               The Database used is MONGO DB
               </p>
+              <p>API is live</p>
+              <a className='text-blue-900' href="https://pnxkhg.deta.dev" target="_blank" rel="noopener noreferrer">https://pnxkhg.deta.dev</a>
             </div>
           </div>
 

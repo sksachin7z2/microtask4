@@ -66,6 +66,8 @@ function Microtask1() {
             <hr className='h-[2px] bg-gray-300 my-3' />
             <div className='font-bold'>
               This API is used to store, get, update and delete temporary user information in a dummy/temporary database
+              <p>API is live</p>
+              <a className='text-blue-900' href="https://p80o5n.deta.dev" target="_blank" rel="noopener noreferrer">https://p80o5n.deta.dev</a>
             </div>
           </div>
 
