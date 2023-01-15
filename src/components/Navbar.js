@@ -14,7 +14,7 @@ function Navbar({notify}) {
          <nav>
            <div className='w-[100vw] h-[10vh] flex justify-between items-center bg-gray-800 '>
             <div className='flex items-center'>
-              <Link to="/"> <div className='text-lg font-bold text-white px-7 '>
+              <Link to="/"> <div className='text-lg font-bold text-white px-16 md:px-7'>
                   Documentation
               </div></Link>
             <ul className='flex  space-x-2'>

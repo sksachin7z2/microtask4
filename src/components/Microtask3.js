@@ -1,9 +1,53 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {HashLink as Linkh}from 'react-router-hash-link'
 function Microtask1() {
+  const [active, setActive] = useState(false)
   return (
-    <div className='grid grid-cols-[20%_80%] h-[90vh]'>
-      <div className='bg-blue-100 font-bold  ' style={{ overflowY: "scroll" }} >
+    <div className='grid md:grid-cols-[20%_80%] h-[90vh]'>
+        <div className='md:hidden text-white fixed top-0 p-5' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
+     {active&& <div className='bg-blue-100 font-bold fixed h-[90vh] ' style={{ overflowY: "scroll" }} >
+        <div className='text-lg p-4'>
+          Table of Contents
+        </div>
+        <hr className='h-[3px] bg-blue-400' />
+      <Linkh to='/microtask3/#intro'>  <div className='p-4 font-bold'>
+          Introduction
+        </div></Linkh>
+        <hr className='h-[3px] bg-blue-400' />
+        <Linkh to='/microtask3/#il'>
+        <div className=' p-4 font-bold'>
+          Installation Locally
+        </div>
+        </Linkh>
+        <Linkh to='/microtask3/#apie'>
+       
+        <hr className='h-[3px] bg-blue-400' />
+        <div className='p-4 font-bold'>
+          API Endpoints
+        </div>
+        </Linkh>
+        <hr className='h-[3px] bg-blue-400' />
+
+        <Linkh to='/microtask3/#rev'>
+       
+        {/* <hr className='h-[3px] bg-blue-400' /> */}
+        <div className='p-4 font-bold'>
+          Reverse Location API
+        </div>
+        </Linkh>
+        
+        <hr className='h-[3px] bg-blue-400' />
+        <div>
+          <ol className='list-decimal  list-inside'>
+       <Linkh to='/microtask3/#1'>    <li className='p-4'>
+       To get the address
+            </li></Linkh> 
+            
+           
+          </ol>
+        </div>
+      </div>}
+      <div className='bg-blue-100 font-bold hidden md:block ' style={{ overflowY: "scroll" }} >
         <div className='text-lg p-4'>
           Table of Contents
         </div>
@@ -48,6 +92,9 @@ function Microtask1() {
       <div style={{ overflowY: "scroll" }}>
         <section>
           <div className='p-5'>
+            
+          <h1  className='text-[2rem] font-bold   '>Microtask3</h1>
+            <hr className='h-[2px] bg-gray-300 my-3' />
             <h1 id='intro' className='text-[2rem] font-bold   '>Introduction</h1>
             <hr className='h-[2px] bg-gray-300 my-3' />
             <div className='font-bold'>
