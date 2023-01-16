@@ -136,6 +136,14 @@ function Microtask1() {
                 <p>Endpoint: '/api/location/getAdd?lat=[latitude]&lon=[longitude]'</p>
 
               </code>
+              <li id='1' className='font-bold'>To get the Coordinates</li>
+
+              <code>
+                <p>Method: GET</p>
+                <p>Endpoint: '/api/location/getCoor?country=[country]&state=[state]&district=[district]&city=[city]&locality=[locality]'</p>
+                  <p>Example</p>
+                  <p>https://t09a36.deta.dev/api/location/getCoor?country=India&state=Assam&district=Kamrup&city=Guwahati&locality=Maligaon</p>
+              </code>
              
             </ol>
           </div>

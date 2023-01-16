@@ -218,6 +218,7 @@ function Microtask2() {
             <ol className='list-decimal list-inside space-y-3'>
               <li className='font-bold'>Clone the repository <a href="https://github.com/sksachin7z2/microtask2" target='_blank' rel="noreferrer"><strong className='text-blue-500'>https://github.com/sksachin7z2/microtask2</strong></a></li>
               <li className='font-bold'>cd microtask2</li>
+              <li className='font-bold'>Connect to mongodb locally or by using Mongodb Atlas URI</li>
               <li className='font-bold'>npm run dev</li>
 
             </ol>
