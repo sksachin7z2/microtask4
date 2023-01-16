@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {HashLink as Linkh}from 'react-router-hash-link'
-import Navbar from './components/Navbar'
+import Navbar from './Navbar'
 function Microtask1() {
   const [active, setActive] = useState(false)
   return (
