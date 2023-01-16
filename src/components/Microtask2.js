@@ -1,14 +1,14 @@
 import React,{useState} from 'react'
 import {HashLink as Linkh}from 'react-router-hash-link'
-import Navbar from './Navbar'
+
 function Microtask2() {
   const [active, setActive] = useState(false)
   return (
     <>
-    <Navbar/>
+   
     <div className='grid md:grid-cols-[20%_80%] h-[100vh]'>
       <div className='md:hidden text-white fixed  top-0 p-[2.85vh_3.2vw]' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
-    {active &&  <div className='bg-blue-100 font-bold fixed h-[100vh] ' style={{ overflowY: "scroll" }} onClick={()=>{setActive(!active)}}>
+    {active &&  <div className='bg-blue-100 font-bold fixed h-[100vh] w-[100vw] ' style={{ overflowY: "scroll" }} onClick={()=>{setActive(!active)}}>
         <div className='text-lg p-4'>
           Table of Contents
         </div>
@@ -192,7 +192,7 @@ function Microtask2() {
           </ol>
         </div>
       </div>
-      <div style={{ overflowY: "scroll" }} className="py-[50px]">
+      <div style={{ overflowY: "scroll" }} className="py-[11vh]">
         <section>
           <div className='p-5'>
             

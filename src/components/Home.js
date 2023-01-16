@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function Home() {
   return (
-    <div className="container m-auto">
+    <div className="container m-[21vw_auto]">
     <div className='my-5 flex justify-center'>
         
         <div>
