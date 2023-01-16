@@ -22,7 +22,7 @@ function Microtask1() {
           Installation Locally
         </div>
         </Linkh>
-        <Linkh to='/microtask3/#apie'>
+        <Linkh to='/microtask3/#il'>
        
         <hr className='h-[3px] bg-blue-400' />
         <div className='p-4 font-bold'>
@@ -31,7 +31,7 @@ function Microtask1() {
         </Linkh>
         <hr className='h-[3px] bg-blue-400' />
 
-        <Linkh to='/microtask3/#rev'>
+        <Linkh to='/microtask3/#il'>
        
         {/* <hr className='h-[3px] bg-blue-400' /> */}
         <div className='p-4 font-bold'>
@@ -42,10 +42,10 @@ function Microtask1() {
         <hr className='h-[3px] bg-blue-400' />
         <div>
           <ol className='list-decimal  list-inside'>
-       <Linkh to='/microtask3/#1'>    <li className='p-4'>
+       <Linkh to='/microtask3/#il'>    <li className='p-4'>
        To get the address
             </li></Linkh> 
-       <Linkh to='/microtask3/#1'>    <li className='p-4'>
+       <Linkh to='/microtask3/#il'>    <li className='p-4'>
        To get the Coordinates
             </li></Linkh> 
             

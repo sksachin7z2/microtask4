@@ -41,21 +41,21 @@ function Microtask1() {
             <li className='p-4'>
               To get the information of a particular userName
             </li> </Linkh>
-            <Linkh to='/microtask1/#3'>
+            <Linkh to='/microtask1/#2'>
            
             <li className='p-4'>
               To get the information of all user
             </li> </Linkh>
-            <Linkh to='/microtask1/#4'>
+            <Linkh to='/microtask1/#2'>
            
             <li className='p-4'>
               To update info of a particular userName
             </li> </Linkh>
-            <Linkh to='/microtask1/#5'>
+            <Linkh to='/microtask1/#2'>
             <li className='p-4'>
               To remove info of a particular userName
             </li></Linkh>
-            <Linkh to='/microtask1/#6'>
+            <Linkh to='/microtask1/#2'>
            
             <li className='p-4'>
             To remove all entries

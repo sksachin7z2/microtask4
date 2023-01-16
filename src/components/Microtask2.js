@@ -71,26 +71,26 @@ function Microtask2() {
         <hr className='h-[3px] bg-blue-400' />
       
 
-        <Linkh to='/microtask2/#vis'>  <div  className='p-4 font-bold'>
+        <Linkh to='/microtask2/#15'>  <div  className='p-4 font-bold'>
           Visitor API
         </div></Linkh>
         <hr className='h-[3px] bg-blue-400' />
         <div>
           <ol className='list-decimal  list-inside'>
-       <Linkh to='/microtask2/#21'>    <li className='p-4'>
+       <Linkh to='/microtask2/#15'>    <li className='p-4'>
        To get detail of the count of visitors
             </li></Linkh> 
-            <Linkh to='/microtask2/#22'>
+            <Linkh to='/microtask2/#15'>
            
             <li className='p-4'>
             To count the visitors
             </li> </Linkh>
-            <Linkh to='/microtask2/#23'>
+            <Linkh to='/microtask2/#15'>
            
             <li className='p-4'>
             To reset the Visiter counter
             </li> </Linkh>
-            <Linkh to='/microtask2/#24'>
+            <Linkh to='/microtask2/#15'>
            
             <li className='p-4'>
             To delete the visitor counter
