@@ -9,7 +9,7 @@ import Home from './components/Home'
 function App() {
   return (
     <Router>
-      <Navbar/>
+   
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/microtask1' element={<Microtask1/>}/>
