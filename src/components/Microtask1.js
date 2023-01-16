@@ -4,7 +4,7 @@ function Microtask1() {
   const [active, setActive] = useState(false)
   return (
     <div className='grid md:grid-cols-[20%_80%] h-[90vh]  '>
-     <div className='md:hidden text-white fixed top-0 p-5' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
+     <div className='md:hidden text-white fixed top-[19px] px-[4vw]' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
  {  active&&  <div className='bg-blue-100 font-bold fixed h-[90vh] ' style={{ overflowY: "scroll" }} >
         <div className='text-lg p-4'>
           Table of Contents
@@ -157,7 +157,7 @@ function Microtask1() {
 
               <li id='1' className='font-bold'>To store the user info in dummy db</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/user/usercreate'</p>
 
@@ -172,11 +172,11 @@ function Microtask1() {
 
                 </ol>
 
-              </div>
+              </code>
              
               <li id='2' className='font-bold'>To get the information of a particular userName</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/user/getuser'</p>
 
@@ -189,10 +189,10 @@ function Microtask1() {
 
                 </ol>
 
-              </div>
+              </code>
               <li id='3' className='font-bold'>To get the information of all user</li>
 
-<div>
+<code>
   <p>Method: GET</p>
   <p>Endpoint: '/api/user/getall'</p>
 
@@ -204,10 +204,10 @@ function Microtask1() {
 
   </ol>
 
-</div>
+</code>
 <li id='4' className='font-bold'>To update info of a particular userName</li>
 
-<div>
+<code>
   <p>Method: PUT</p>
   <p>Endpoint: '/api/user/update/[userName]'</p>
 
@@ -222,10 +222,10 @@ function Microtask1() {
 
   </ol>
 
-</div>
+</code>
 <li id='5' className='font-bold'>To remove info of a particular userName</li>
 
-<div>
+<code>
   <p>Method: DELETE</p>
   <p>Endpoint: '/api/user/remove/[userName]'</p>
 
@@ -236,10 +236,10 @@ function Microtask1() {
   
   </ol>
 
-</div>
+</code>
 <li id='6' className='font-bold'>To remove all entries</li>
 
-<div>
+<code>
   <p>Method: DELETE</p>
   <p>Endpoint: '/api/user/removeall'</p>
 
@@ -250,7 +250,7 @@ function Microtask1() {
   
   </ol>
 
-</div>
+</code>
 
             </ol>
           </div>

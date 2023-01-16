@@ -4,7 +4,7 @@ function Microtask2() {
   const [active, setActive] = useState(false)
   return (
     <div className='grid md:grid-cols-[20%_80%] h-[90vh]'>
-      <div className='md:hidden text-white fixed top-0 p-5' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
+      <div className='md:hidden text-white fixed top-[19px] px-[4vw]' onClick={()=>{setActive(!active)}}> <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg></div>
     {active &&  <div className='bg-blue-100 font-bold fixed h-[90vh] ' style={{ overflowY: "scroll" }} >
         <div className='text-lg p-4'>
           Table of Contents
@@ -236,7 +236,7 @@ function Microtask2() {
 
               <li id='11' className='font-bold'>To create new user (signup)</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/auth/createUser'</p>
 
@@ -250,11 +250,11 @@ function Microtask2() {
 
                 </ol>
 
-              </div>
+              </code>
              
               <li id='12' className='font-bold'>To login in the account</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/auth/login'</p>
 
@@ -268,10 +268,10 @@ function Microtask2() {
 
                 </ol>
 
-              </div>
+              </code>
               <li id='13' className='font-bold'>To get the user info</li>
 
-<div>
+<code>
   <p>Method: POST</p>
   <p>Endpoint: '/api/auth/getuser'</p>
 
@@ -283,10 +283,10 @@ function Microtask2() {
 
   </ol>
 
-</div>
+</code>
 <li id='14' className='font-bold'>To delete the account</li>
 
-<div>
+<code>
   <p>Method: DELETE</p>
   <p>Endpoint: "/api/auth/deleteuser"</p>
 
@@ -297,10 +297,10 @@ function Microtask2() {
     
   </ol>
 
-</div>
+</code>
 <li id='15' className='font-bold'>To update the account info</li>
 
-<div>
+<code>
   <p>Method: PUT</p>
   <p>Endpoint: '/api/auth/updateuser'</p>
 
@@ -318,7 +318,7 @@ function Microtask2() {
   
   </ol>
 
-</div>
+</code>
 
 
             </ol>
@@ -331,7 +331,7 @@ function Microtask2() {
 
               <li id='21' className='font-bold'>To get detail of the count of visitors</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/vis/info'</p>
 
@@ -344,11 +344,11 @@ function Microtask2() {
 
                 </ol>
 
-              </div>
+              </code>
              
               <li id='22' className='font-bold'>To count the visitors</li>
 
-              <div>
+              <code>
                 <p>Method: POST</p>
                 <p>Endpoint: '/api/vis/count'</p>
 
@@ -362,10 +362,10 @@ function Microtask2() {
 
                 </ol>
 
-              </div>
+              </code>
               <li id='23' className='font-bold'>To reset the Visiter counter</li>
 
-<div>
+<code>
   <p>Method: PUT</p>
   <p>Endpoint: '/api/vis/reset'</p>
 
@@ -377,10 +377,10 @@ function Microtask2() {
 
   </ol>
 
-</div>
+</code>
 <li id='24' className='font-bold'>To delete the visitor counter</li>
 
-<div>
+<code>
   <p>Method: DELETE</p>
   <p>Endpoint: '/api/vis/delete'</p>
 
@@ -391,7 +391,7 @@ function Microtask2() {
     
   </ol>
 
-</div>
+</code>
 
 
 

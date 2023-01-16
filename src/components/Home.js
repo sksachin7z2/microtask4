@@ -2,7 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function Home() {
   return (
-    <div className='my-5 w-100 flex justify-center'>
+    <div className="container m-auto">
+    <div className='my-5 flex justify-center'>
         
         <div>
         <div className='text-center  font-bold text-[3.5rem] text-red-600'>#HostelDevta</div>
@@ -21,6 +22,7 @@ function Home() {
             </div>
         </div>
         </div>
+    </div>
     </div>
   )
 }
